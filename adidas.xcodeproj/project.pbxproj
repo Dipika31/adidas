@@ -9,23 +9,47 @@
 /* Begin PBXBuildFile section */
 		2D2851E62A7E358D00115168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2851E52A7E358D00115168 /* AppDelegate.swift */; };
 		2D2851E82A7E358D00115168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2851E72A7E358D00115168 /* SceneDelegate.swift */; };
-		2D2851EA2A7E358D00115168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2851E92A7E358D00115168 /* ViewController.swift */; };
+		2D2851EA2A7E358D00115168 /* CategoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2851E92A7E358D00115168 /* CategoryPage.swift */; };
 		2D2851ED2A7E358D00115168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2851EB2A7E358D00115168 /* Main.storyboard */; };
 		2D2851F02A7E358D00115168 /* adidas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2851EE2A7E358D00115168 /* adidas.xcdatamodeld */; };
 		2D2851F22A7E358E00115168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2851F12A7E358E00115168 /* Assets.xcassets */; };
 		2D2851F52A7E358E00115168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2851F32A7E358E00115168 /* LaunchScreen.storyboard */; };
+		2D2851FD2A7E47E600115168 /* TabBarMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2851FC2A7E47E600115168 /* TabBarMainPage.swift */; };
+		2D2A46862A7F978700FF40FF /* LogingInWithEmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A46852A7F978700FF40FF /* LogingInWithEmailPage.swift */; };
+		2D2A46882A7F99DA00FF40FF /* LogInWithEmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A46872A7F99DA00FF40FF /* LogInWithEmailPage.swift */; };
+		2D2A468C2A7FA00800FF40FF /* VerifyAgePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A468B2A7FA00800FF40FF /* VerifyAgePage.swift */; };
+		2D4FAFAE2A7E53C200778CA9 /* LoginOptionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FAFAD2A7E53C200778CA9 /* LoginOptionPage.swift */; };
+		2D4FAFB02A7E542500778CA9 /* FireHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FAFAF2A7E542500778CA9 /* FireHomePage.swift */; };
+		2DC405032A80DB1C0045B052 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DC405022A80DB1C0045B052 /* GoogleService-Info.plist */; };
+		2DC405052A80DF440045B052 /* PasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC405042A80DF440045B052 /* PasswordPage.swift */; };
+		2DCB545E2A823A6200DB0965 /* MyAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB545D2A823A6200DB0965 /* MyAccountPage.swift */; };
+		2DCB54602A8243BA00DB0965 /* EditProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB545F2A8243BA00DB0965 /* EditProfileInfo.swift */; };
+		C7A7C62CAFB515A6498A412B /* Pods_adidas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CB4FC0DB9F96CD77A86075 /* Pods_adidas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2921890C104D48184F6F5F5D /* Pods-adidas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adidas.release.xcconfig"; path = "Target Support Files/Pods-adidas/Pods-adidas.release.xcconfig"; sourceTree = "<group>"; };
 		2D2851E22A7E358D00115168 /* adidas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adidas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2851E52A7E358D00115168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D2851E72A7E358D00115168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D2851E92A7E358D00115168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2851E92A7E358D00115168 /* CategoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPage.swift; sourceTree = "<group>"; };
 		2D2851EC2A7E358D00115168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D2851EF2A7E358D00115168 /* adidas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = adidas.xcdatamodel; sourceTree = "<group>"; };
 		2D2851F12A7E358E00115168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2851F42A7E358E00115168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2851F62A7E358E00115168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2851FC2A7E47E600115168 /* TabBarMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarMainPage.swift; sourceTree = "<group>"; };
+		2D2A46852A7F978700FF40FF /* LogingInWithEmailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogingInWithEmailPage.swift; sourceTree = "<group>"; };
+		2D2A46872A7F99DA00FF40FF /* LogInWithEmailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInWithEmailPage.swift; sourceTree = "<group>"; };
+		2D2A468B2A7FA00800FF40FF /* VerifyAgePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAgePage.swift; sourceTree = "<group>"; };
+		2D4FAFAD2A7E53C200778CA9 /* LoginOptionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionPage.swift; sourceTree = "<group>"; };
+		2D4FAFAF2A7E542500778CA9 /* FireHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireHomePage.swift; sourceTree = "<group>"; };
+		2DC405022A80DB1C0045B052 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DC405042A80DF440045B052 /* PasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPage.swift; sourceTree = "<group>"; };
+		2DCB545D2A823A6200DB0965 /* MyAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountPage.swift; sourceTree = "<group>"; };
+		2DCB545F2A8243BA00DB0965 /* EditProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileInfo.swift; sourceTree = "<group>"; };
+		79CB4FC0DB9F96CD77A86075 /* Pods_adidas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adidas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB63D8A527B2C7FF9152B196 /* Pods-adidas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adidas.debug.xcconfig"; path = "Target Support Files/Pods-adidas/Pods-adidas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A7C62CAFB515A6498A412B /* Pods_adidas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				2D2851E42A7E358D00115168 /* adidas */,
 				2D2851E32A7E358D00115168 /* Products */,
+				93BDBF3DE2D6DD19F2A57FDB /* Pods */,
+				8D81A42032EB8345A888AA46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +87,41 @@
 			children = (
 				2D2851E52A7E358D00115168 /* AppDelegate.swift */,
 				2D2851E72A7E358D00115168 /* SceneDelegate.swift */,
-				2D2851E92A7E358D00115168 /* ViewController.swift */,
+				2D2851E92A7E358D00115168 /* CategoryPage.swift */,
+				2DC405042A80DF440045B052 /* PasswordPage.swift */,
+				2D2851FC2A7E47E600115168 /* TabBarMainPage.swift */,
+				2D2A468B2A7FA00800FF40FF /* VerifyAgePage.swift */,
 				2D2851EB2A7E358D00115168 /* Main.storyboard */,
+				2DCB545F2A8243BA00DB0965 /* EditProfileInfo.swift */,
+				2DCB545D2A823A6200DB0965 /* MyAccountPage.swift */,
+				2D2A46872A7F99DA00FF40FF /* LogInWithEmailPage.swift */,
+				2D2A46852A7F978700FF40FF /* LogingInWithEmailPage.swift */,
+				2D4FAFAF2A7E542500778CA9 /* FireHomePage.swift */,
+				2D4FAFAD2A7E53C200778CA9 /* LoginOptionPage.swift */,
 				2D2851F12A7E358E00115168 /* Assets.xcassets */,
 				2D2851F32A7E358E00115168 /* LaunchScreen.storyboard */,
+				2DC405022A80DB1C0045B052 /* GoogleService-Info.plist */,
 				2D2851F62A7E358E00115168 /* Info.plist */,
 				2D2851EE2A7E358D00115168 /* adidas.xcdatamodeld */,
 			);
 			path = adidas;
+			sourceTree = "<group>";
+		};
+		8D81A42032EB8345A888AA46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79CB4FC0DB9F96CD77A86075 /* Pods_adidas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93BDBF3DE2D6DD19F2A57FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB63D8A527B2C7FF9152B196 /* Pods-adidas.debug.xcconfig */,
+				2921890C104D48184F6F5F5D /* Pods-adidas.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2851F92A7E358E00115168 /* Build configuration list for PBXNativeTarget "adidas" */;
 			buildPhases = (
+				5EC4324C125FDA529F2DA9AB /* [CP] Check Pods Manifest.lock */,
 				2D2851DE2A7E358D00115168 /* Sources */,
 				2D2851DF2A7E358D00115168 /* Frameworks */,
 				2D2851E02A7E358D00115168 /* Resources */,
+				F410B7BDB22ABFCF6E735715 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2851F52A7E358E00115168 /* LaunchScreen.storyboard in Resources */,
+				2DC405032A80DB1C0045B052 /* GoogleService-Info.plist in Resources */,
 				2D2851F22A7E358E00115168 /* Assets.xcassets in Resources */,
 				2D2851ED2A7E358D00115168 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +193,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EC4324C125FDA529F2DA9AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-adidas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F410B7BDB22ABFCF6E735715 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-adidas/Pods-adidas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-adidas/Pods-adidas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-adidas/Pods-adidas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D2851DE2A7E358D00115168 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2851EA2A7E358D00115168 /* ViewController.swift in Sources */,
+				2D2851FD2A7E47E600115168 /* TabBarMainPage.swift in Sources */,
+				2DCB54602A8243BA00DB0965 /* EditProfileInfo.swift in Sources */,
+				2D2851EA2A7E358D00115168 /* CategoryPage.swift in Sources */,
+				2DCB545E2A823A6200DB0965 /* MyAccountPage.swift in Sources */,
 				2D2851F02A7E358D00115168 /* adidas.xcdatamodeld in Sources */,
+				2D2A46882A7F99DA00FF40FF /* LogInWithEmailPage.swift in Sources */,
 				2D2851E62A7E358D00115168 /* AppDelegate.swift in Sources */,
+				2D2A468C2A7FA00800FF40FF /* VerifyAgePage.swift in Sources */,
 				2D2851E82A7E358D00115168 /* SceneDelegate.swift in Sources */,
+				2DC405052A80DF440045B052 /* PasswordPage.swift in Sources */,
+				2D4FAFB02A7E542500778CA9 /* FireHomePage.swift in Sources */,
+				2D2A46862A7F978700FF40FF /* LogingInWithEmailPage.swift in Sources */,
+				2D4FAFAE2A7E53C200778CA9 /* LoginOptionPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +394,7 @@
 		};
 		2D2851FA2A7E358E00115168 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB63D8A527B2C7FF9152B196 /* Pods-adidas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +423,7 @@
 		};
 		2D2851FB2A7E358E00115168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2921890C104D48184F6F5F5D /* Pods-adidas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

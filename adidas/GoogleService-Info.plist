@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>8642034628-cuive5re3g89o1ct5tm5egf7k3d64981.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.8642034628-cuive5re3g89o1ct5tm5egf7k3d64981</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCrSS2K9G7_IW1q3WRNkrh6YOc8NN99MwI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>8642034628</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dipika.adidas</string>
+	<key>PROJECT_ID</key>
+	<string>adidas-eb4a9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adidas-eb4a9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:8642034628:ios:ee0c39c6efeaf0f228c291</string>
+</dict>
+</plist>
