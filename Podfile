@@ -10,4 +10,5 @@ pod 'Firebase/Auth'
 pod 'Firebase/Core'
 pod 'FirebaseFirestore'
 pod 'Firebase/Database'
+pod 'LZViewPager'
 end
